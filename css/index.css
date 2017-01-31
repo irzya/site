@@ -1,17 +1,33 @@
 body {
+    width: 100%;
     background-color: #000000;
     font-family: sans-serif;
     color: #FFFFFF;
     
 }
 h1 {
+    width: 282;
+    height: 382;
     text-align: center;
     font-family: arial black;
-    font-size: 30px;
+    font-size: 50px;
     
 }
 h2 {
     text-align: center;
     font-family: arial black;
     font-size: 30px;
+}
+.block {
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+}
+article {
+    width: 282px;
+    height: 382px;
+}
+li {
+    display: inline;
 }
