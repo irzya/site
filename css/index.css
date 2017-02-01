@@ -1,33 +1,54 @@
-body {
-    width: 100%;
+body{
+    max-width: 1024px;
+    margin: 0 auto;
     background-color: #000000;
     font-family: sans-serif;
     color: #FFFFFF;
     
 }
+
+    .nav_el{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.home {
+    background-image: url(../src/solo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
 h1 {
-    width: 282;
-    height: 382;
+    color: #FFFFFF; 
     text-align: center;
     font-family: arial black;
-    font-size: 50px;
+  
     
 }
 h2 {
+    color: #FFFFFF; 
     text-align: center;
     font-family: arial black;
-    font-size: 30px;
+   
 }
-.block {
-    display: inline-block;
-    width: 150px;
-    height: 75px;
-    margin: 10px;
-}
-article {
-    width: 282px;
-    height: 382px;
-}
-li {
-    display: inline;
-}
+
